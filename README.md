@@ -1,4 +1,4 @@
-# Free Code Camp Philly Projects
+# Free Code Camp Philly Showcase
 
 This project allows all members of Free Code Camp Philly to showcase their projects! 
 
