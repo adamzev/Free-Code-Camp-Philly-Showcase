@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
-import ApproveUserCard from './components/ApproveUserCard';
-import { Container, Divider } from 'semantic-ui-react';
-import MainMenu from './components/Menu';
+import Home from './Home';
+import About from './About';
+import MainMenu from './components/Menu'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Container>
-          <MainMenu/>
-          <header><h1>Free Code Camp Philly Showcase</h1></header>
-          <Divider></Divider>
-          <h3>Approve Users</h3>
-          <ApproveUserCard/>
-        </Container>
+        <BrowserRouter>
+          <div>
+            <MainMenu />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/about" component={About} />
+          </div>
+        </BrowserRouter>
       </div>
     );
   }
