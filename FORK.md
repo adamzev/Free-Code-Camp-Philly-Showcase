@@ -28,11 +28,11 @@ In order to make changes and additions to the code, you must clone it to your lo
 
 Here is how to clone:
 
-1. Open GitBash on your local maching and navigate to the folder you would like to save the repo.  (You can do this right in Viusal Studio Code also by clicking "view" on your toolbar and selection "Integrated Terminal").
+1. Open the terminal of your choice (* see terminals at bottom of page) on your local maching and navigate to the folder you would like to save the repo.  (You can do this right in Viusal Studio Code also by clicking "view" on your toolbar and selection "Integrated Terminal").
 
 2. Go to the forked repo in YOUR Git Hub account.  On the right hand side of the page you will see a green button with "Clone or Download".  CLick the green button and copy the url link,
 
-3. Go to GitBash (or VSC if using "integrated termnal") and type: 'git clone" and then paste the url.  Press enter.  
+3. Go to your terminal and type: 'git clone" and then paste the url.  Press enter.  
 
 4. Congratulations!  Now you have a working branch on your local machine.
 
@@ -40,12 +40,15 @@ Here is how to clone:
 
 In order to make React work we need to install some dependencies.
 
-1.  Go back to GitBash or VSC.  You should still be root folder directory for the cloned project.  Navigate to the Showcase folder in the directry by typing: 'cd Free-Code-Camp-Philly-Showcase/showcase' 
+1.  Go back to your terminal.  You should still be root folder directory for the cloned project.  Navigate to the Showcase folder in the directry by typing: 'cd Free-Code-Camp-Philly-Showcase/showcase' 
 
-2. Type 'yarn install'.  This will take a few minutes as yarn builds your dependencies.  
+2. If you already have Yarn installed on your local machine, you can skip this step.  If not you will need to download and install it here: https://yarnpkg.com/lang/en/docs/install/
 
-3. When the install is finished, you can type 'yarn start'.  This will run the app and open it in your browser.
+3. Type 'yarn install'.  This will take a few minutes as yarn builds your dependencies.  
 
-4. Congratulations!  Now you can start coding!
+4. When the install is finished, you can type 'yarn start'.  This will run the app and open it in your browser.
 
+5. Congratulations!  Now you can start coding!
+
+* Terminals: A commonly used terminal is GitBash, but you can use any terminal you feel comfortable working with.    
 
