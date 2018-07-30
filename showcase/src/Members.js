@@ -1,6 +1,6 @@
 import React from 'react'
 import UserCard from './components/UserCard'
-import data from './data/data.js'
+import data from './data/dataIndex.js'
 
 const Members = () => {
   return data.map(({ image, username, tagline, bio, projects }) => {
