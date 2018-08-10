@@ -10,7 +10,8 @@ class App extends Component {
       <div className="App">
         <Container>
           <MainMenu/>
-          <header><h1>Free Code Camp Philly Showcase</h1></header>
+          <Header></Header>
+          {/* <Header><h1>Free Code Camp Philly Showcase</h1></header> */}
           <Divider></Divider>
           <h3>Approve Users</h3>
           <ApproveUserCard/>
