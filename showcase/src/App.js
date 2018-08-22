@@ -3,6 +3,7 @@ import './App.css';
 import ApproveUserCard from './components/ApproveUserCard';
 import { Container, Divider } from 'semantic-ui-react';
 import MainMenu from './components/Menu';
+import Header from './components/Header'
 
 class App extends Component {
   render() {

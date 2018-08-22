@@ -1,13 +1,16 @@
 import React from 'react'
-// import { Header } from 'semantic-ui-react'
+import { Image } from 'semantic-ui-react'
+import { Header } from 'semantic-ui-react'
 
-const Header = () => (
+
+const FCCHeader = () => (
   <div>
+    
     <Header as='h1' >Free Code Camp Philly Showcase
-    <Image floated='right' size='mini' src='/assets/images/codecamplogo.png' />
+    <Image floated='right'  src='/assets/images/codecamplogo.png' />
     </Header>
 
   </div>
 )
 
-export default Header
+export default FCCHeader
