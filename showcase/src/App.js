@@ -4,8 +4,8 @@ import './App.css'
 import Home from './Home'
 import About from './About'
 import MainMenu from './components/Menu'
-import Header from './components/Header'
 import Members from './Members'
+import FCCHeader from './components/FCCHeader';
 
 class App extends Component {
   render() {
@@ -13,8 +13,8 @@ class App extends Component {
       <div className="App">
         <BrowserRouter>
           <div>
-            <Header/>
             <MainMenu />
+            <FCCHeader/>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/members" component={Members} />
