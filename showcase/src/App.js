@@ -5,6 +5,7 @@ import Home from './Home'
 import About from './About'
 import MainMenu from './components/Menu'
 import Members from './Members'
+import FCCHeader from './components/FCCHeader';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <MainMenu />
+            <FCCHeader/>
             <Route exact path="/" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/members" component={Members} />
