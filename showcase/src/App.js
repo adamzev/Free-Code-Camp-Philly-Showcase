@@ -15,8 +15,8 @@ class App extends Component {
           <div>
             <MainMenu />
             <FCCHeader/>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/" component={About} />
             <Route exact path="/members" component={Members} />
           </div>
         </BrowserRouter>

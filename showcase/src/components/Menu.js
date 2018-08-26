@@ -17,7 +17,7 @@ export default class MainMenu extends Component {
           active={activeItem === 'home'}
           onClick={this.handleItemClick}
           as={Link}
-          to="/"
+          to="/home"
         >
           Home
         </Menu.Item>
@@ -26,7 +26,7 @@ export default class MainMenu extends Component {
           active={activeItem === 'about'}
           onClick={this.handleItemClick}
           as={Link}
-          to="/about"
+          to="/"
         >
           About
         </Menu.Item>

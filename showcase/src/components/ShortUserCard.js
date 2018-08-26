@@ -1,7 +1,7 @@
 import React from 'react'
-import { Button, Card, Image } from 'semantic-ui-react'
+import { Card, Image } from 'semantic-ui-react'
 
-const ApproveUserCard = () => (
+const ShortUserCard = () => (
 
     <Card>
         <Card.Content>
@@ -12,17 +12,9 @@ const ApproveUserCard = () => (
             Steve wants to add his <strong>portfolio</strong> to Free Code Camp Philly.
         </Card.Description>
         </Card.Content>
-        <Card.Content extra>
-        <div className='ui two buttons'>
-            <Button basic color='green'>
-            Approve
-            </Button>
-            <Button basic color='red'>
-            Decline
-            </Button>
-        </div>
+        <Card.Content extra>Portfolio items.
         </Card.Content>
     </Card>
 )
 
-export default ApproveUserCard
+export default ShortUserCard
