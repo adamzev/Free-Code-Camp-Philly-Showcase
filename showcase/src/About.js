@@ -4,7 +4,7 @@ const About = () => (
     <Container>
         <Divider></Divider>
         <h3>Welcome! This site is a work in progress.</h3>
-        <Grid>
+        <Grid stackable>
             <Grid.Column width={4} textAlign='justified'>
                 <h4>About Free Code Camp Philly</h4>
                 <p><a href="https://www.freecodecamp.org/">FreeCodeCamp.org</a> is an awesome place to learn to code for free, build projects and get experience coding. However, a huge part of Free Code Camp is the supportive community centered around learning to code. Free Code Camp Philly is a <a href="https://www.meetup.com/Free-Code-Camp-Philly/">local meetup group</a> where our members go to talk about, learn about and get support with coding.</p>
