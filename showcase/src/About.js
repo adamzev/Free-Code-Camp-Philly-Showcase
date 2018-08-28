@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Grid, Divider } from 'semantic-ui-react'
+import { Container, Grid } from 'semantic-ui-react'
 const About = () => (
   <Container>
     <h3>Welcome! This site is a work in progress.</h3>
