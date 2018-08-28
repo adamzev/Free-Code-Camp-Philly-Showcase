@@ -1,4 +1,5 @@
 export const user2 = {
+  id: 2,
   image: 'http://via.placeholder.com/180x320',
   username: 'test user 2',
   tagline: 'Came for the nice js ecosystem',

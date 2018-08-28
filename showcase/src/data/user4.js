@@ -1,9 +1,9 @@
 export default {
-  id: 3,
+  id: 4,
   image: 'http://via.placeholder.com/180x320',
-  username: 'test user 3',
-  tagline: 'Came for the code, stayed for the code',
-  bio: 'I am a human being. No really, I am totally not a computer',
+  username: 'test user 4',
+  tagline: 'Hey check it out',
+  bio: 'I am a bio',
   projects: [
     'project1',
     'project2',
