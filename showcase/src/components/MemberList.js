@@ -31,7 +31,7 @@ const renderMemberList = () => {
 const MemberList = () => {
   return (
     <Container>
-      <Grid doubling stackable columns={3}>
+      <Grid doubling stackable relaxed columns={3}>
         {renderMemberList()}
       </Grid>
     </Container>
