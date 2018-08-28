@@ -1,6 +1,6 @@
 export default {
   id: 1,
-  image: 'http://via.placeholder.com/180x320',
+  image: 'http://via.placeholder.com/180x180',
   username: 'ajdeleon',
   tagline: 'Junior Developer. Lover of many things. Master of nothing.',
   bio:
