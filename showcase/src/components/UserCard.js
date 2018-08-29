@@ -2,8 +2,10 @@ import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
 
 const UserCard = ({ image, username, tagline, bio, projects }) => (
-  <Card>
-    <Image src={image} />
+  <Card centered>
+    <Card.Content>
+      <Image src={image} centered circular />
+    </Card.Content>
     <Card.Content>
       <Card.Header>{username}</Card.Header>
       <Card.Meta>
@@ -12,10 +14,8 @@ const UserCard = ({ image, username, tagline, bio, projects }) => (
       <Card.Description>{bio}</Card.Description>
     </Card.Content>
     <Card.Content extra>
-      <a>
-        <Icon name="file code outline" />
-        {projects.length} projects
-      </a>
+      <Icon name="file code outline" />
+      {projects.length} projects
     </Card.Content>
   </Card>
 )

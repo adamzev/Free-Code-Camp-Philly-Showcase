@@ -5,7 +5,7 @@ import Home from './Home'
 import About from './About'
 import MainMenu from './components/Menu'
 import Members from './Members'
-import FCCHeader from './components/FCCHeader';
+import FCCHeader from './components/FCCHeader'
 
 class App extends Component {
   render() {
@@ -14,10 +14,10 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <MainMenu />
-            <FCCHeader/>
+            <FCCHeader />
             <Route exact path="/home" component={Home} />
             <Route exact path="/" component={About} />
-            <Route exact path="/members" component={Members} />
+            <Route path="/members" component={Members} />
           </div>
         </BrowserRouter>
       </div>

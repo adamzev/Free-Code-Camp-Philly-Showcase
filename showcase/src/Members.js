@@ -1,19 +1,13 @@
 import React from 'react'
-import UserCard from './components/UserCard'
-import data from './data/dataIndex.js'
+import { Route, Switch } from 'react-router-dom'
+import MemberList from './components/MemberList'
+import SingleMember from './components/SingleMember'
 
-const Members = () => {
-  return data.map(({ image, username, tagline, bio, projects }) => {
-    return (
-      <UserCard
-        image={image}
-        username={username}
-        tagline={tagline}
-        bio={bio}
-        projects={projects}
-      />
-    )
-  })
-}
+const Members = () => (
+  <Switch>
+    <Route exact path="/members" component={MemberList} />
+    <Route path="/members/:member" component={SingleMember} />
+  </Switch>
+)
 
 export default Members
