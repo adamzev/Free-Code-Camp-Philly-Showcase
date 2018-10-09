@@ -12,6 +12,26 @@ const data = {
     const isUser = u => u.username === member
     return this.users.find(isUser)
   },
+  randomUserList: function(){
+    return shuffleArray(this.users);
+  },
+}
+
+/*an function that takes our users and scrambles the array
+* in order to shuffle the order that members are displayed on the 'members page
+* -codex
+* The shuffleArray functions a little weird, I noticed repetition 
+* I tried to implement Durstenfield shuffle..got weird.
+*/
+function shuffleArray(array){
+  for (let i = array.length -1; i > 0; i--){
+    let j = Math.floor(Math.random() * (i + 1));
+    let temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+
+    return array; 
+  }
 }
 
 export default data
