@@ -2,18 +2,18 @@ export default {
     id: 25,
     image: 'https://media.licdn.com/dms/image/C4E03AQHpMaZ1FbEUXw/profile-displayphoto-shrink_200_200/0?e=1548892800&v=beta&t=iJZgshyJ6e3EW98VBiNd4pvgeIQr2yLyhggDtEGrhKc',
     username: 'danmulvihill',
-    tagline: 'Front-end Developer.',
+    tagline: 'Front-end Developer',
     bio:
-      'I am new but good. Mostly Front-end (I love vanilla JS)',
+      'I enjoying making useful web apps and beautiful websites. Mostly Front-end (I love vanilla JS), but have worked with RDBS and PHP',
     projects: [
       {
         header: 'Shopping Buddy',
         href: 'https://react-shopping-buddy.firebaseapp.com/',
         description:
-          'Am app I started at NYCDA coding bootcamp. This version was created with React-JS and is a recreation of an earlier verion I originally made with vanilla JS. ',
+          'An app I started at NYCDA coding bootcamp. This version was created with React-JS and is a recreation of an earlier verion I originally made with vanilla JS. ',
       },
       {
-        header: 'Other project',
+        header: 'Portfolio / Other project',
         href: 'https://danmulvihill.github.io/',
         description: 'For list of our fun apps and websites, see my one-page profile',
       },
