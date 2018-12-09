@@ -3,8 +3,11 @@ import { user2 } from './user2.js'
 import userSC from './userSC.js'
 import rodriguezangel from './rodriguezangel.js'
 import danmulvihill from './danmulvihill.js'
+import tjallen from './tjallen.js'
+
+
 const data = {
-  users: [user1, user2, rodriguezangel, danmulvihill, userSC],
+  users: [user1, user2, rodriguezangel, danmulvihill, userSC, tjallen],
   allUsers: function() {
     return this.users
   },
