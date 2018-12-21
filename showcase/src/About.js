@@ -25,11 +25,11 @@ const About = () => (
           Showcase Philly is an open source software project created by the
           members of Free Code Camp's Philly Meetup. The goal of the project is
           twofold:
-          <ol>
-            <li>Showcase our work.</li>
-            <li>Learn about development as part of a team.</li>
-          </ol>
         </p>
+        <ol>
+          <li>Showcase our work.</li>
+          <li>Learn about development as part of a team.</li>
+        </ol>
         <h5>Contributing</h5>
         <p>
           We are always looking for more contributors! If you are interested in
