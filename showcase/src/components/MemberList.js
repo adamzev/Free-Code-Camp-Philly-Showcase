@@ -11,7 +11,7 @@ const style = {
 }
 
 const renderMemberList = () => {
-  return data.allUsers().map(({ image, username, tagline, bio, projects }) => {
+  return data.randomUserList().map(({ image, username, tagline, bio, projects }) => {
     return (
       <Grid.Column key={username} style={style.paddingTop}>
         <Link to={`members/${username}`}>
