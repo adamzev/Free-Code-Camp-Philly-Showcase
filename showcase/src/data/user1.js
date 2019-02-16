@@ -1,6 +1,7 @@
+import aj from '../assets/aj_small.png'
 export default {
   id: 1,
-  image: 'http://via.placeholder.com/180x180',
+  image: aj,
   username: 'ajdeleon',
   tagline: 'Junior Developer. Lover of many things. Master of nothing.',
   bio:
